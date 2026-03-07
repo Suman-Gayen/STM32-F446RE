@@ -1,0 +1,7 @@
+../Src/main.c:6:6:delay	16	static
+../Src/main.c:15:6:PrintData	16	static
+../Src/main.c:51:6:LCD_Data	16	static
+../Src/main.c:61:6:LCD_Commond	16	static
+../Src/main.c:70:6:LCD_String	24	static
+../Src/main.c:79:6:LCD_Init	8	static
+../Src/main.c:85:5:main	8	static

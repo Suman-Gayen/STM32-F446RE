@@ -61,9 +61,15 @@ int main(void)
 	 * dp= PC7
 	 * */
 	RCC->AHB1ENR = RCC->AHB1ENR | (1<<0) | (1<<1) | (1<<2);
+
 	GPIOA->MODER = GPIOA->MODER | (1<<20)| (1<<18) | (1<<16);
+	GPIOA->MODER = GPIOA->MODER & (~(1<<21)) & (~(1<<19)) & (~(1<<17));
+
 	GPIOB->MODER = GPIOB->MODER | (1<<6) | (1<<10) | (1<<8) | (1<<20);
+	GPIOB->MODER = GPIOB->MODER & (~(1<<7)) & (~(1<<11)) & (~(1<<9) & (1<<21));
+
 	GPIOC->MODER = GPIOC->MODER | (1<<14);
+	GPIOC->MODER = GPIOC->MODER & (~(1<<15));
 
 
 	while(1)
