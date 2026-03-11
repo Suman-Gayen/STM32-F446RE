@@ -1,0 +1,7 @@
+../Src/main.c:6:6:delay	2
+../Src/main.c:15:6:PrintData	5
+../Src/main.c:35:6:LCD_Data	1
+../Src/main.c:51:6:LCD_Commond	1
+../Src/main.c:66:6:LCD_String	2
+../Src/main.c:75:6:LCD_Init	1
+../Src/main.c:81:5:main	1
