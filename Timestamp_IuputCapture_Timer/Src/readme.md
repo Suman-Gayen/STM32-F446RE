@@ -300,11 +300,4 @@ TIM3 captures the rising edge timestamps of this signal.
 
 ---
 
-# Possible Improvements
 
-* Use interrupts instead of polling
-* Use HAL or LL drivers
-* Measure full signal period
-* Send timestamp over UART for debugging
-
----
